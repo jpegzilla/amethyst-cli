@@ -1,0 +1,21 @@
+{
+  "name": "ncli",
+  "version": "1.0.0",
+  "description": "node cli test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "mocha ./test/index.test.js"
+  },
+  "author": "jpegzilla",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "pkg": "^4.4.2"
+  }
+}
